@@ -51,18 +51,6 @@ def validIP(address: str) -> bool:
     return True
 
 
-# def testIP(addr) -> None:
-#     if validIP(addr):
-#         print(f"validIP says address {addr} is OK ...\n\n")
-#         return
-#     else:
-#         print(f"validIP failed, testing is {addr} a valid hostname\n\n")
-#         if hostnameResolves(addr):
-#             print(f"hostnameResolves is happy with hostname {addr} ...\n\n")
-#         else:
-#             print(f"hostnameResolves says hostname {addr} is a DUD ...\n\n")
-
-#         return
 
 
 addresses = [
